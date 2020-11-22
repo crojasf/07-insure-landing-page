@@ -1,0 +1,22 @@
+{
+  "name": "07-insure-landing-page",
+  "version": "1.0.0",
+  "description": "Sexto proyecto para practicar como desarrollador front-end, ya a nivel Junior.",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "postcss": "^8.1.9",
+    "postcss-normalize": "^9.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

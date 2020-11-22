@@ -25,7 +25,7 @@ Para preparar el entorno se debe instalar Node.js en el equipo e instalar *gulp*
 
 
 ## Demo
-El resultado del proyecto puede verse [aquí](https://crojasf.github.io/06-pricing-component-with-toggle/).
+El resultado del proyecto puede verse [aquí](https://crojasf.github.io/07-insure-landing-page/).
 
 ![desktop-final](/design/desktop-final.png)
 
@@ -77,7 +77,7 @@ $ git init
 $ git add .
 $ git commit -m "Subir ficheros iniciales del proyecto"
 $ git branch -M main
-$ git remote add origin https://github.com/crojasf/06-pricing-component-with-toggle.git
+$ git remote add origin https://github.com/crojasf/07-insure-landing-page
 $ git push -u origin main
 ```
 
