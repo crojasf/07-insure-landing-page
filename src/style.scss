@@ -1,9 +1,188 @@
+/* 
+======================
+UTILITIES
+======================
+*/
+
+
+// colors
+// -------------------------
+
+
+
+// fonts
+// -------------------------
+
+
+
+
+// breakpoints
+// -------------------------
+$bp-sm: 375px; // mobile
+$bp-lg: 1440px; // desktop
+
+$breakpoints: (
+	"sm": $bp-sm,
+	"lg": $bp-lg,
+) !default;
+
+// EJEMPLO respond-to
+// .foo {
+//   color: red;
+//   @include respond-to('small') {
+//     color: blue;
+//   }
+// }
+
+@mixin respond-to($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media (min-width: map-get($breakpoints, $breakpoint)) {
+			@content;
+		}
+	} @else {
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+	}
+}
+
+/* 
+======================
+BASE
+======================
+*/
+
+// reset
+// -------------------------
+
+
 // Normalize.css v8.0.1
 @import-normalize;
 
 
+// body
+// -------------------------
+
 body {
-	background-color: aquamarine;
+	// background-color: aquamarine;
 }
 
 
+/* 
+======================
+LAYOUT
+======================
+*/
+
+// header
+// -------------------------
+.header{
+
+}
+
+// main
+// -------------------------
+.main{
+
+}
+
+
+
+// footer
+// -------------------------
+.footer{
+
+}
+
+/* 
+======================
+COMPONENTS
+======================
+*/
+
+
+
+// header-menu
+// -------------------------
+.header-menu{
+
+}
+
+
+
+
+// intro
+// -------------------------
+
+.intro {
+
+}
+
+
+
+
+
+
+// difference
+// -------------------------
+
+.difference {
+
+}
+
+
+
+// how-we-work
+// -------------------------
+
+.how-we-work {
+
+}
+
+
+// footer-header
+// -------------------------
+
+.footer-header {
+
+}
+
+// footer-social-menu
+// -------------------------
+
+.footer-social-menu {
+
+}
+
+// footer-menu
+// -------------------------
+
+.footer-menu {
+
+}
+
+
+
+
+
+
+
+
+// hr
+// -------------------------
+.hr {
+	width: 50px;
+	border: 0;
+
+	&--white {
+		border-top: 1px solid white;
+	}
+	&--gray {
+		border-top: 1px solid gray;
+	}
+}
+
+
+
+
+// helpers
+// -------------------------
