@@ -310,6 +310,11 @@ LAYOUT
 COMPONENTS
 ======================
 */
+.header-menu__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row; }
+
 .hr {
   width: 50px;
   border: 0; }

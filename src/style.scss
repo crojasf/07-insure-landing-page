@@ -104,6 +104,21 @@ COMPONENTS
 // header-menu
 // -------------------------
 .header-menu{
+	$header-menu: &;  // Set the parent as a variable
+
+	&__list {
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+	}
+	&__item {
+
+	}
+
+
+
+
+
 
 }
 
